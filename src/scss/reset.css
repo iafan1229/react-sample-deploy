@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #1a0004;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button.red {
+  background-color: #cd251a;
+  color: #fff;
+}
+
+.btn-gold {
+  margin-top: 30px;
+  width: 300px;
+  height: 43px;
+  border: none;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#77530a), color-stop(#ffd277), color-stop(#77530a), color-stop(#77530a), color-stop(#ffd277), to(#77530a));
+  background: linear-gradient(to right, #77530a, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  overflow: hidden;
+}
+
+.btn-gold span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 97%;
+  height: 38px;
+  border-radius: inherit;
+  background: #e50914;
+  font-size: 20px;
+}
+
+.btn-gold:hover {
+  background-position: right;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.btn-gold:hover::before {
+  background-position: right;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.btn-gold:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.logo b {
+  font: 400 19vh 'Vibur';
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+.box {
+  width: 500px;
+  margin: 3vh auto;
+  border-radius: 50%;
+  padding: 0.2em;
+  -webkit-box-shadow: 0 0 0rem #e50914, 0 0 0.2rem #e50914, 0 0 20px #fff, 0 0 0.8rem #e50914, 0 0 2.8rem #e50914, inset 0 0 0.3rem #e50914;
+          box-shadow: 0 0 0rem #e50914, 0 0 0.2rem #e50914, 0 0 20px #fff, 0 0 0.8rem #e50914, 0 0 2.8rem #e50914, inset 0 0 0.3rem #e50914;
+  -webkit-filter: drop-shadow(2px 4px 6px #e50914);
+          filter: drop-shadow(2px 4px 6px #e50914);
+  background: #fff;
+}
+
+#wrap {
+  position: relative;
+}
+
+#wrap a {
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=reset.css.map */
